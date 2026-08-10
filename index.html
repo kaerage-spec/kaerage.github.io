@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kae | Business Analyst Portfolio Walkthrough</title>
+  <title>Kae | Portfolio Walkthrough</title>
   <style>
-    /* 1. Global Setup (Bedimcode Layout Inspired) */
+    /* 1. Global Setup */
     body {
       font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       line-height: 1.7;
       color: #2D3748;
-      background-color: #FAF5FF; /* Subtle pastel lavender/pink base tint */
+      background-color: #FAF5FF; /* Subtle pastel lavender base tint */
       margin: 0;
       padding: 0;
       -webkit-font-smoothing: antialiased;
@@ -30,7 +30,7 @@
       box-shadow: 0 8px 20px rgba(233, 213, 255, 0.4); /* Faint pastel glow */
     }
 
-    /* 2. Hero Section: Left Text / Right Visual Image Shape */
+    /* 2. Hero Section Layout */
     .home-container {
       display: flex;
       flex-direction: row;
@@ -48,12 +48,12 @@
       flex: 1;
     }
 
-    /* The distinct curved shape frame from the Alexa theme */
+    /* Asymmetric profile shape frame */
     .home-img-frame {
       width: 200px;
       height: 200px;
       background-color: #FBCFE8; /* Soft pink shape frame */
-      border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; /* Asymmetric round corner look */
+      border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; 
       display: flex;
       align-items: center;
       justify-content: center;
@@ -61,7 +61,6 @@
       box-shadow: 0 10px 25px rgba(244, 114, 182, 0.2);
     }
 
-    /* Responsive shift for smaller screens */
     @media (max-width: 600px) {
       .home-container {
         flex-direction: column-reverse;
@@ -98,7 +97,7 @@
       text-transform: uppercase;
       letter-spacing: 0.15em;
       color: #ED64A6; 
-      border-bottom: 2px dashed #E9D5FF; /* Subtle purple-pink dashed divider */
+      border-bottom: 2px dashed #E9D5FF; 
       padding-bottom: 8px;
       margin-bottom: 24px;
     }
@@ -138,7 +137,20 @@
       transform: translateY(-2px);
     }
 
-    /* Cozy Project Layout Tweaks */
+    /* Project Link Button Style */
+    .project-link {
+      display: inline-block;
+      margin-top: 10px;
+      color: #D53F8C;
+      font-weight: 700;
+      text-decoration: none;
+      font-size: 0.95rem;
+    }
+
+    .project-link:hover {
+      text-decoration: underline;
+    }
+
     ul {
       list-style-type: none;
       padding: 0;
@@ -164,71 +176,74 @@
 
   <div class="container">
 
-    <!-- 1. WALKTHROUGH BRIEF SUMMARY (HERO BLOCK) -->
+    <!-- 1. HERO BLOCK -->
     <header class="home-container">
       <div class="home-data">
         <h1>Hello, I'm Kae</h1>
-        <div class="job-title">Aspiring Business Analyst</div>
+        <div class="job-title">Aspiring Apprentice</div>
         <p>
-          🎀 <strong>Portfolio Walkthrough:</strong> This page serves as a focused walkthrough of my operational mindset, requirement logging capabilities, and structured process-improvement frameworks for my apprenticeship application. Moving from a rigorous scientific background, I specialise in root-cause analysis, stakeholder risk management, operational workflow mapping, and regulatory compliance verification.
+          🎀 <strong>My Portfolio Walkthrough:</strong> Welcome! I have built this page to show how I use my background in A-Level Mathematics and university studies to solve real-world problems. I love organising messy information, working out why errors happen, and turning numbers into clear, simple conclusions. I am looking for an apprenticeship where I can learn on the job and support a busy team.
         </p>
         <a href="mailto:kaerage123@gmail.com" class="btn">Connect With Me</a>
       </div>
       
       <div class="home-img-frame">
-        📋
+        ✨
       </div>
     </header>
 
-    <!-- 2. SUBSTACK (FEATURED WRITING) -->
+    <!-- 2. MY APPROACH -->
     <section>
-      <h2>Operational Mindset</h2>
-      <h3>Shifting My Mindset: Root-Cause Analysis & Systems Thinking</h3>
-      <div class="subtitle">An exploration of business logic, process architecture, and structured problem-solving.</div>
+      <h2>About My Mindset</h2>
+      <h3>How I Like to Approach Problems</h3>
+      <div class="subtitle">Organisation, logic, and looking for details.</div>
       
-      <p>Business analysis is more than documenting requests—it is a systematic method of isolating operational inefficiencies, identifying process risks, and translating complex system rules into structured documentation to support strategic decision-making.</p>
+      <p>To me, analysing business processes or data isn't about using fancy code—it is about being curious and asking the right questions to fix an issue.</p>
       
-      <p>Coming from a high-level mathematical background, my approach is rooted in data integrity, process mapping, and meticulous attention to detail. Whether manually auditing hundreds of physical medication records at Freeman Hospital to enforce procedural compliance, or reconciling transaction streams at Fountain Pharmacy to isolate system discrepancies, I focus on establishing clean operational baselines.</p>
+      <p>My academic training taught me to be incredibly neat, methodical, and patient with paperwork. Whether I was manually checking hospital medicine charts to make sure everything matched up, or updating stock records at a local pharmacy, I noticed that little details matter. If data entry is messy, the whole system breaks down.</p>
       
-      <p>True analysis relies on cutting through messy information to reveal objective facts that optimise workflows, reduce corporate liabilities, and save organisations time and cost.</p>
+      <p>I enjoy taking confusing tasks, sorting them into clear categories, and highlighting the facts so teams can make smart choices quickly.</p>
     </section>
 
-    <!-- 3. FEATURED BUSINESS ANALYSIS PROJECTS -->
+    <!-- 3. UNIVERSITY TASKS & SPREADSHEETS -->
     <section>
-      <h2>Featured Business Analysis Projects</h2>
+      <h2>My University Work & Projects</h2>
       
-      <h3>📋 Project 1: Functional Requirement Categorisation & Logic Scoping</h3>
-      <div class="subtitle">Managing structural parameters and grouping ambiguous variables.</div>
+      <h3>📊 Task 1: Sorting and Mapping 30 Variables (Excel)</h3>
+      <div class="subtitle">Using spreadsheets to clean up and group confusing records.</div>
       <ul>
-        <li><strong>The Business Challenge:</strong> Translating 30 highly complex, multi-variable component profiles into strict, non-conflicting operational rules to guide technical implementation teams and senior stakeholders.</li>
-        <li><strong>The BA Approach:</strong> Analysed core operational parameters and grouped ambiguous variables into a structured logic matrix based on precise numerical thresholds (cLogP vs. pKa metrics). Formatted clear categorical classification legends to eliminate analytical noise.</li>
-        <li><strong>Business Impact:</strong> Developed an interactive, visual decision-support model that allows business teams to instantly cross-verify structural components against safety and regulatory requirements.</li>
+        <li><strong>What the problem was:</strong> I was given a big block of information on 30 different chemical profiles that were too messy to read easily.</li>
+        <li><strong>What I did:</strong> I input the rows into Excel and used scatter charts to map how the variables interacted. I manually grouped the dots together using clear categories so anyone could read the layout instantly.</li>
+        <li><strong>What the result was:</strong> I turned a confusing table into a simple, colour-coded visual guide that showed exactly which items fit our targets.</li>
       </ul>
+      <a href="sulphonamide_scatter.png" class="project-link" target="_blank">👉 Click here to view my Excel charts</a>
 
-      <br>
+      <br><br><hr style="border: 1px dashed #E9D5FF;"><br>
 
-      <h3>⚠️ Project 2: System Risk Appraisal & Regulatory Optimisation</h3>
-      <div class="subtitle">Balancing regulatory frameworks against commercial constraints.</div>
+      <h3>🧪 Task 2: Safety Auditing and Life-Cycle Tracking</h3>
+      <div class="subtitle">Checking data constraints to find the safest product baseline.</div>
       <ul>
-        <li><strong>The Business Challenge:</strong> Identifying structural liabilities in existing product formulation and distribution streams to minimise demographic user risk while maintaining absolute regulatory alignment.</li>
-        <li><strong>The BA Approach:</strong> Conducted a comprehensive root-cause analysis on variable interindividual clearance data streams (17.3mg/dL/h) and toxic load accumulation limits across narrow therapeutic index (NTI) margins. Balanced complex trade-offs between commercial viability and safety constraints to meet strict British Pharmacopoeia regulatory frameworks.</li>
-        <li><strong>Business Impact:</strong> Delivered a strategic optimisation blueprint and predictive stability model forecasting a secure 24-month operational baseline, effectively eliminating process vulnerabilities and lowering systemic organisational risk.</li>
+        <li><strong>What the problem was:</strong> A liquid medication had an ingredient balance that was too strong for small children, and we needed to see how to lower the toxicity while keeping it stable.</li>
+        <li><strong>What I did:</strong> I tracked different ingredient levels in a spreadsheet to see where crystals started to form. Then, I used standard mathematical formulas to forecast exactly how long the mixture would stay safe on a shelf.</li>
+        <li><strong>What the result was:</strong> I completed a clear report proving that an alcohol-free mixture could stay safely stable for over 24 months without failing guidelines.</li>
       </ul>
+      <a href="phenobarbital_report.pdf" class="project-link" target="_blank">👉 Click here to read my full project report</a>
 
-      <br>
+      <br><br><hr style="border: 1px dashed #E9D5FF;"><br>
 
-      <h3>🦠 Project 3: Macro-Process Mapping & Public Sector Impact Analysis</h3>
-      <div class="subtitle">Aggregating fragmented operational data into business intelligence briefs.</div>
+      <h3>🦠 Task 3: Global Data Research & Analysis (Antimicrobial Resistance)</h3>
+      <div class="subtitle">Reading large international reports to spot real-world trends.</div>
       <ul>
-        <li><strong>The Business Challenge:</strong> Aggregating fragmented international operational reports to isolate the core behavioural and financial drivers behind an escalating global public health crisis.</li>
-        <li><strong>The BA Approach:</strong> Cleansed and standardised disparate international data metrics sourced from the CDC, WHO, and European Commission. Mapped financial impacts ($55B/year operational leakages) and severe process bottlenecks (hospital stay durations expanding from 6.4 to 12.7 average days) to isolate systemic inefficiencies.</li>
-        <li><strong>Business Impact:</strong> Produced a structured 1,500-word business intelligence brief isolating consumer non-compliance patterns to guide strategic regional resource allocation and support antimicrobial stewardship programmes.</li>
+        <li><strong>What the problem was:</strong> Worldwide medicine resistance (AMR) is rising, costing billions and extending hospital stays, but the main causes were scattered across different country files.</li>
+        <li><strong>What I did:</strong> I collected raw figures from organisations like the WHO and CDC. I put them into Excel to map the financial costs and cross-referenced them with data sheets showing how waste habits impact local regions.</li>
+        <li><strong>What the result was:</strong> I wrote a comprehensive essay connecting environmental habits directly to hospital stay spikes, helping to point out exactly where rules need to be tightened.</li>
       </ul>
+      <a href="amr_project.pdf" class="project-link" target="_blank">👉 Click here to read my research summary</a>
     </section>
 
     <!-- FOOTER -->
     <footer style="margin-top: 60px; padding-top: 20px; font-size: 0.95rem; color: #718096; text-align: center;">
-      Designed with care • Live Walkthrough Portfolio
+      Kae's Practice Portfolio • Ready to Learn
     </footer>
 
   </div>
