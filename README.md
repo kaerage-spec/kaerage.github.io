@@ -1,5 +1,5 @@
 # kaerage.github.io
-Healthcare Data and Business Analysis Portfolio
+**Healthcare Data and Business Analysis Portfolio**
 
 This repository contains data analysis and quality control projects focusing on process auditing, trend tracking, and information reporting within the healthcare sector.
 
